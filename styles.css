@@ -1,0 +1,170 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'Gilroy', Arial, sans-serif;
+    
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    
+    color: white;
+    background-color: #f9f9f9;
+    
+    
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+}
+
+#block1{
+   /* background-color: aqua; */
+   background-image: url(https://img.freepik.com/free-photo/nobody-exterior-wall-page-empty_1258-257.jpg?semt=ais_hybrid&w=740);
+    height: 90vh;
+    background-color: #f9f9f9;
+}
+
+#nav{
+    /* background-color: bisque; */
+    
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 90px;
+    height: 15vh;
+}
+
+#nav h1{
+    font-size: 90px;
+    font-weight: 400;
+}
+
+#nav-part1 h2{
+    font-size: 15px;
+    font-weight: 300;
+}
+
+#welcome {
+    /* background-color: rgb(136, 151, 151); */
+    min-height: 30vh; 
+    display: flex;
+    flex-direction: column; 
+    align-items: center;  
+    justify-content: center; 
+    text-align: center;
+    gap: 10px; 
+    padding: 20px;
+    padding-top: 50px;
+}
+
+#welcome h2{
+    font-weight: 200;
+}
+
+#inputbox{
+    /* background-color: aquamarine; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#inputbox1{
+   height: 50px;
+   width: 380px;
+   border-radius: 10px;
+}
+
+#inputbox button{
+    margin: 0px 20px;
+    height: 50px;
+    width: 120px;
+    border-radius: 10px;
+}
+
+#details{
+    /* background-color: blue; */
+    height: 39vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 160px;
+    padding-top: 140px;
+    margin: 0px 70px;
+}
+
+#details h1{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#details p{
+    font-weight: 300;
+    
+}
+
+#details > div:nth-child(1) {
+    border-right: 1px solid rgba(255, 255, 255, 0.5);
+    padding-right: 90px;
+    margin-right: 20px;
+
+    
+}
+
+#details > div:nth-child(2) {
+    border-right: 1px solid rgba(255, 255, 255, 0.5);
+    padding-right: 90px;
+    margin-right: 20px;
+}
+
+#block2 {
+    background-color:  #ccdcea; 
+    padding: 50px 100px; 
+    height: 50vh;
+}
+
+#logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: black;
+    gap: 40px;                     
+    flex-wrap: wrap; 
+}
+
+#lang{
+    margin-bottom: 230px;
+}
+
+#block2 p {
+    margin: 10px 0; 
+  }
+
+#logo img {
+    height: 580px;
+    width: auto; 
+    margin: 0 auto; 
+}
+
+#block3{
+    background-color: rgb(252, 253, 253);
+    height: 30vh;
+    width: 100%;
+}
+#block3 img{
+    height: 260px;
+    width: auto;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+#block4 {
+    background-color: rgb(250, 249, 249);
+    height: 10vh;
+    color: black;
+    text-align: center;
+    padding: 55px;
+}
