@@ -2,6 +2,8 @@
 
 NameGen
 
+likn - https://mohdfaizan63.github.io/Name-Gen/
+
 NameGen is a simple AI-powered business name generator landing page. It introduces the concept of creating short, catchy, and brandable names for startups, products, or projects.
 
 🔹 Features highlighted in the page:
